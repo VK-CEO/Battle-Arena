@@ -25,12 +25,12 @@ jobs:
 
     - name: Install Buildozer & Cython
       run: |
-        pip install --upgrade pip setuptools
-        pip install "cython<3.0.0" buildozer
+        python -m pip install --upgrade pip setuptools
+        python -m pip install "cython<3.0.0" buildozer
 
     - name: Build APK with Buildozer
       run: |
-        yes | buildozer android debug
+        yes | python -m buildozer android debug
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
