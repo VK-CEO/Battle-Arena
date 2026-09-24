@@ -109,10 +109,10 @@ fullscreen = 0
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 33
+android.api = 33
 
 # (int) Minimum API your APK / AAB will support.
-#android.minapi = 24
+android.minapi = 21
 
 # (int) Android SDK version to use
 #android.sdk = 20
@@ -136,8 +136,8 @@ fullscreen = 0
 # This can be useful to avoid excess Internet downloads or save time
 # when an update is due and you just want to test/build your package
 # android.skip_update = False
-
 # (bool) If True, then automatically accept SDK license
+android.accept_sdk_license = True
 # agreements. This is intended for automation only. If set to False,
 # the default, you will be shown the license when first running
 # buildozer.
