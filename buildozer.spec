@@ -57,6 +57,7 @@ requirements = python3,pygame
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse, landscape-reverse, or all
 orientation = landscape
+p4a.branch = master
 
 # (list) List of services to declare
 # This is currently only relevant to Android services.
