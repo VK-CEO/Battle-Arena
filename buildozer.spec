@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,pygame
+requirements = python3==3.10.12,pygame==2.1.0
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -57,7 +57,7 @@ requirements = python3,pygame
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse, landscape-reverse, or all
 orientation = landscape
-#p4a.branch = master
+p4a.branch = master
 #p4a.local_recipes = ./recipes
 
 # (list) List of services to declare
